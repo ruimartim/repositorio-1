@@ -1,0 +1,6 @@
+git clone https://github.com/ruimartim/repo-1.git
+cd repo-1
+echo "print('Hello!')" > app.py
+git add app.py
+git commit -m "Adiciona app.py"
+git push origin main
